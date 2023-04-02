@@ -12,22 +12,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+.movie-year {
+  margin: 10px;
+}
+.App-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
 }
 
+#nav .nav-links {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+  color: white;
+  margin: 50px;
+  border-radius: 30px;
+}
+.movies-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.movie-descrShort {
+  margin: 30px;
+}
+
+.budget {
+  margin: 30px;
+}
+.rented {
+  margin: 30px;
+}
+.catalog {
+  margin: 30px;
+}
+#users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
